@@ -7,8 +7,8 @@
 
 <h1>Halaman About</h1>
 
-<p>Ini adalah halaman about pada website Laravel.</p>
-<p>Website ini dibuat untuk belajar Laravel.</p>
+<p>Muhammad Rizky Zuhriansyah - 3124521033</p>
+<p>Belajar membuat halaman about di laravel</p>
 
 </body>
 </html>
