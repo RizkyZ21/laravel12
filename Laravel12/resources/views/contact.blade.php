@@ -88,8 +88,6 @@ p{
 
     <section class="mt-4">
 
-        <p>Silakan hubungi saya melalui form berikut.</p>
-
         <form>
 
             <div class="mb-3">
