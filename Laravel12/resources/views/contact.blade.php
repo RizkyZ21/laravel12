@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About</title>
+<title>Contact</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
 :root{
@@ -13,7 +15,6 @@
     --accent:#2563eb;
     --radius:12px;
     --max-width:820px;
-    --container-pad:28px;
     --shadow:0 6px 24px rgba(16,24,40,0.08);
 }
 
@@ -23,7 +24,7 @@ body{
     background:var(--bg);
 }
 
-.container-about{
+.container-contact{
     min-height:90vh;
     display:flex;
     align-items:center;
@@ -35,7 +36,7 @@ body{
     max-width:var(--max-width);
     background:var(--card-bg);
     border-radius:var(--radius);
-    padding:var(--container-pad);
+    padding:30px;
     box-shadow:var(--shadow);
 }
 
@@ -49,7 +50,7 @@ body{
     width:86px;
     height:86px;
     border-radius:9999px;
-    background:linear-gradient(135deg,var(--accent),#7c3aed);
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -68,27 +69,50 @@ p{
 }
 </style>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 <body>
 
 @include('navbar')
 
-<div class="container-about">
+<div class="container-contact">
 
 <main class="card">
+
     <div class="header">
         <div class="avatar">RZ</div>
         <div>
-            <h1>Halaman About</h1>
-            <div class="meta">Muhammad Rizky Zuhriansyah • 3124521033</div>
+            <h1>Contact Me</h1>
+            <div class="meta">Muhammad Rizky Zuhriansyah</div>
         </div>
     </div>
 
-    <section style="margin-top:18px">
-        <p>Belajar membuat halaman about di Laravel.</p>
+    <section class="mt-4">
+
+        <p>Silakan hubungi saya melalui form berikut.</p>
+
+        <form>
+
+            <div class="mb-3">
+                <label class="form-label">Nama</label>
+                <input type="text" class="form-control" placeholder="Masukkan nama">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Masukkan email">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Pesan</label>
+                <textarea class="form-control" rows="4" placeholder="Tulis pesan"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+
+        </form>
+
     </section>
+
 </main>
 
 </div>
