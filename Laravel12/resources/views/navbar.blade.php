@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background: rgba(255,255,255,0.9); backdrop-filter: blur(6px);">
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm navbar-custom">
   <div class="container">
 
-    <a class="navbar-brand fw-bold" href="{{ url('/') }}" style="color:#2563eb;">
+    <a class="navbar-brand fw-bold brand-text" href="{{ url('/') }}">
         Zuhri
     </a>
 
@@ -30,18 +30,3 @@
     </div>
   </div>
 </nav>
-
-<style>
-.navbar-nav .nav-link{
-    color:#374151;
-    transition:0.2s;
-}
-
-.navbar-nav .nav-link:hover{
-    color:#2563eb;
-}
-
-.navbar-brand{
-    letter-spacing:0.5px;
-}
-</style>
