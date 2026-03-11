@@ -14,12 +14,12 @@
       <ul class="navbar-nav ms-auto">
 
         <li class="nav-item">
-          <a class="nav-link fw-semibold" href="{{ url('/') }}">Home</a>
+          <a class="nav-link fw-semibold" href="{{ url('/') }}">About</a>
         </li>
-
+{{--
         <li class="nav-item">
           <a class="nav-link fw-semibold" href="{{ url('/about') }}">About</a>
-        </li>
+        </li> --}}
 
         <li class="nav-item">
           <a class="nav-link fw-semibold" href="{{ url('/detail') }}">Detail</a>
