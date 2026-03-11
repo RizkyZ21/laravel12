@@ -22,11 +22,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link fw-semibold" href="{{ url('/contact') }}">Contact</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link fw-semibold" href="{{ url('/profile') }}">Profile</a>
+          <a class="nav-link fw-semibold" href="{{ url('/detail') }}">Detail</a>
         </li>
 
       </ul>

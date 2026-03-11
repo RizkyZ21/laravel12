@@ -87,8 +87,12 @@ p{
     </div>
 
     <section style="margin-top:18px">
-        <p>Belajar membuat halaman about di Laravel.</p>
-    </section>
+        <p>
+            Saya adalah mahasiswa Teknik Informatika di Politeknik Elektronika Negeri Surabaya (PENS).
+            Saat ini saya sedang mempelajari pengembangan web menggunakan Laravel, PHP, dan Bootstrap.
+            Website ini dibuat sebagai bagian dari pembelajaran saya dalam membuat aplikasi web menggunakan framework Laravel.
+        </p>
+</section>
 </main>
 
 </div>
